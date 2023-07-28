@@ -1,0 +1,63 @@
+.serach_wrapper{
+    background-color: #ffffff;
+    width:50em;
+    border-radius: 0.3em;
+}
+
+.serach_wrapper input{
+    width: 90%;
+    border: 1px solid black;
+    padding: 1.2em 0.8em;
+}
+
+#serach-btn{
+    background-color: #99DBF5;
+    width: 90%;
+    border-radius: 1.5em;
+    padding: 0.5em 0.5em;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+}
+
+.weather-icon{
+    margin-top: 50px;
+}
+
+#description{
+    font-size:18px;
+    color: #1D267D;
+}
+
+li{
+    list-style: none;
+}
+
+
+@media screen and (max-width:400px) {
+    .mediaSCreen{
+        display: flex;
+        flex-direction: column;
+        margin-left:80%;
+    }
+  
+}
+
+@media screen and (min-width:400px)and (max-width:800px) {
+    .mediaSCreen{
+        display: flex;
+        flex-direction: column;
+        margin-left:80%;
+    }
+  
+}
+
+@media screen and (min-width:700px)and (max-width:1024px) {
+    .mediaSCreen{
+        display: flex;
+        flex-direction: column;
+        margin-left:30%;
+    }
+  
+}
